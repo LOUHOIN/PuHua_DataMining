@@ -3,7 +3,7 @@
 
 ## 数据隐私数据提取部分
 
-** BERT+CRF **
+**BERT+CRF**
 
 * BERT产生语言表征信息
 * Linear映射到标签域
