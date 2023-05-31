@@ -21,10 +21,10 @@
 客户端（192.168.88.135）创建client库<p>
 ![RWS](./RWSplitting_img/2.png)<p>
 
-主库端口监听：
+主库端口监听：<p>
 ![RWS](./RWSplitting_img/3.png)<p>
 
-从库端口监听:
+从库端口监听:<p>
 ![RWS](./RWSplitting_img/4.png)<p>
 
 
