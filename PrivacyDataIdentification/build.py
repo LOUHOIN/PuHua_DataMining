@@ -10,7 +10,7 @@ num_epochs = 10
 learning_rate = 0.000001
 device = 'cuda'
 
-train_dataset = TextDataset('../data.json')
+train_dataset = TextDataset('./data.json')
 
 bert_model = BertModel.from_pretrained('bert-base-chinese').to(device)
 
