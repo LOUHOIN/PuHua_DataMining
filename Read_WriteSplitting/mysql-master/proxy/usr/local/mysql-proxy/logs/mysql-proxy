@@ -1,0 +1,857 @@
+2023-05-21 18:25:07: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=12332 alive
+2023-05-21 18:25:07: (debug) chassis-unix-daemon.c:157: waiting for 12332
+2023-05-21 18:25:07: (debug) chassis-unix-daemon.c:121: we are the child: 12332
+2023-05-21 18:25:07: (critical) plugin proxy 0.8.5 started
+2023-05-21 18:25:07: (debug) max open file-descriptors = 1024
+2023-05-21 18:25:07: (message) proxy listening on port :4040
+2023-05-21 18:25:07: (message) added read/write backend: 192.168.88.140:3306
+2023-05-21 18:25:07: (message) added read-only backend: 192.168.88.131:3306
+2023-05-21 18:25:07: (message) added read-only backend: 192.168.88.133:3306
+2023-05-21 18:25:07: (message) added read-only backend: 192.168.88.134:3306
+2023-05-21 18:25:07: (debug) now running as user: root (0/0)
+2023-05-21 18:28:01: (critical) ioctl(12, FIONREAD, ...) said there is something to read, oops: 54
+2023-05-21 20:38:19: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1234 alive
+2023-05-21 20:38:19: (debug) chassis-unix-daemon.c:157: waiting for 1234
+2023-05-21 20:38:19: (debug) chassis-unix-daemon.c:121: we are the child: 1234
+2023-05-21 20:38:19: (critical) plugin proxy 0.8.5 started
+2023-05-21 20:38:19: (debug) max open file-descriptors = 1024
+2023-05-21 20:38:19: (message) proxy listening on port :4040
+2023-05-21 20:38:19: (message) added read/write backend: 192.168.88.140:3306
+2023-05-21 20:38:19: (message) added read-only backend: 192.168.88.131:3306
+2023-05-21 20:38:19: (message) added read-only backend: 192.168.88.133:3306
+2023-05-21 20:38:19: (message) added read-only backend: 192.168.88.134:3306
+2023-05-21 20:38:19: (debug) now running as user: root (0/0)
+2023-05-21 20:39:34: (critical) ioctl(12, FIONREAD, ...) said there is something to read, oops: 54
+2023-05-21 20:44:26: (critical) ioctl(13, FIONREAD, ...) said there is something to read, oops: 54
+2023-05-22 09:11:55: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1225 alive
+2023-05-22 09:11:55: (debug) chassis-unix-daemon.c:157: waiting for 1225
+2023-05-22 09:11:55: (debug) chassis-unix-daemon.c:121: we are the child: 1225
+2023-05-22 09:11:55: (critical) plugin proxy 0.8.5 started
+2023-05-22 09:11:55: (debug) max open file-descriptors = 1024
+2023-05-22 09:11:55: (message) proxy listening on port :4040
+2023-05-22 09:11:55: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 09:11:55: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 09:11:55: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 09:11:55: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 09:11:55: (debug) now running as user: root (0/0)
+2023-05-22 09:13:57: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-22 09:23:24: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1197 alive
+2023-05-22 09:23:24: (debug) chassis-unix-daemon.c:157: waiting for 1197
+2023-05-22 09:23:24: (debug) chassis-unix-daemon.c:121: we are the child: 1197
+2023-05-22 09:23:24: (critical) plugin proxy 0.8.5 started
+2023-05-22 09:23:24: (debug) max open file-descriptors = 1024
+2023-05-22 09:23:24: (message) proxy listening on port :4040
+2023-05-22 09:23:24: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 09:23:24: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 09:23:24: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 09:23:24: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 09:23:24: (debug) now running as user: root (0/0)
+2023-05-22 09:36:32: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1214 alive
+2023-05-22 09:36:32: (debug) chassis-unix-daemon.c:157: waiting for 1214
+2023-05-22 09:36:32: (debug) chassis-unix-daemon.c:121: we are the child: 1214
+2023-05-22 09:36:32: (critical) plugin proxy 0.8.5 started
+2023-05-22 09:36:32: (debug) max open file-descriptors = 1024
+2023-05-22 09:36:32: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 09:36:32: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 09:36:32: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 09:36:32: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 09:36:32: (message) shutting down normally, exit code is: 1
+2023-05-22 09:36:32: (debug) chassis-unix-daemon.c:167: 1214 returned: 1214
+2023-05-22 09:36:32: (message) chassis-unix-daemon.c:176: [angel] PID=1214 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 09:36:32: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 09:36:32: (message) shutting down normally, exit code is: 1
+2023-05-22 09:36:32: (debug) chassis-unix-daemon.c:167: 1197 returned: 1197
+2023-05-22 09:36:32: (critical) chassis-unix-daemon.c:189: [angel] PID=1197 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 09:36:34: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1217 alive
+2023-05-22 09:36:34: (debug) chassis-unix-daemon.c:157: waiting for 1217
+2023-05-22 09:36:34: (debug) chassis-unix-daemon.c:121: we are the child: 1217
+2023-05-22 09:36:34: (critical) plugin proxy 0.8.5 started
+2023-05-22 09:36:34: (debug) max open file-descriptors = 1024
+2023-05-22 09:36:34: (message) proxy listening on port :4040
+2023-05-22 09:36:34: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 09:36:34: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 09:36:34: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 09:36:34: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 09:36:34: (debug) now running as user: root (0/0)
+2023-05-22 09:49:20: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1199 alive
+2023-05-22 09:49:20: (debug) chassis-unix-daemon.c:157: waiting for 1199
+2023-05-22 09:49:20: (debug) chassis-unix-daemon.c:121: we are the child: 1199
+2023-05-22 09:49:20: (critical) plugin proxy 0.8.5 started
+2023-05-22 09:49:20: (debug) max open file-descriptors = 1024
+2023-05-22 09:49:20: (message) proxy listening on port :4040
+2023-05-22 09:49:20: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 09:49:20: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 09:49:20: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 09:49:20: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 09:49:20: (debug) now running as user: root (0/0)
+2023-05-22 09:51:58: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1219 alive
+2023-05-22 09:51:58: (debug) chassis-unix-daemon.c:157: waiting for 1219
+2023-05-22 09:51:58: (debug) chassis-unix-daemon.c:121: we are the child: 1219
+2023-05-22 09:51:58: (critical) plugin proxy 0.8.5 started
+2023-05-22 09:51:58: (critical) plugin admin 0.8.5 started
+2023-05-22 09:51:58: (debug) max open file-descriptors = 1024
+2023-05-22 09:51:58: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 09:51:58: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 09:51:58: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 09:51:58: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 09:51:58: (message) shutting down normally, exit code is: 1
+2023-05-22 09:51:58: (debug) chassis-unix-daemon.c:167: 1219 returned: 1219
+2023-05-22 09:51:58: (message) chassis-unix-daemon.c:176: [angel] PID=1219 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 09:51:58: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 09:51:58: (message) shutting down normally, exit code is: 1
+2023-05-22 09:51:58: (debug) chassis-unix-daemon.c:167: 1199 returned: 1199
+2023-05-22 09:51:58: (critical) chassis-unix-daemon.c:189: [angel] PID=1199 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 09:52:00: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1220 alive
+2023-05-22 09:52:00: (debug) chassis-unix-daemon.c:157: waiting for 1220
+2023-05-22 09:52:00: (debug) chassis-unix-daemon.c:121: we are the child: 1220
+2023-05-22 09:52:00: (critical) plugin proxy 0.8.5 started
+2023-05-22 09:52:00: (debug) max open file-descriptors = 1024
+2023-05-22 09:52:00: (message) proxy listening on port :4040
+2023-05-22 09:52:00: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 09:52:00: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 09:52:00: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 09:52:00: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 09:52:00: (debug) now running as user: root (0/0)
+2023-05-22 09:52:09: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1232 alive
+2023-05-22 09:52:09: (debug) chassis-unix-daemon.c:157: waiting for 1232
+2023-05-22 09:52:09: (debug) chassis-unix-daemon.c:121: we are the child: 1232
+2023-05-22 09:52:09: (critical) plugin proxy 0.8.5 started
+2023-05-22 09:52:09: (critical) plugin admin 0.8.5 started
+2023-05-22 09:52:09: (debug) max open file-descriptors = 1024
+2023-05-22 09:52:09: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 09:52:09: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 09:52:09: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 09:52:09: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 09:52:09: (message) shutting down normally, exit code is: 1
+2023-05-22 09:52:09: (debug) chassis-unix-daemon.c:167: 1232 returned: 1232
+2023-05-22 09:52:09: (message) chassis-unix-daemon.c:176: [angel] PID=1232 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 09:52:09: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 09:52:09: (message) shutting down normally, exit code is: 1
+2023-05-22 09:52:09: (debug) chassis-unix-daemon.c:167: 1220 returned: 1220
+2023-05-22 09:52:09: (critical) chassis-unix-daemon.c:189: [angel] PID=1220 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 09:52:11: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1235 alive
+2023-05-22 09:52:11: (debug) chassis-unix-daemon.c:157: waiting for 1235
+2023-05-22 09:52:11: (debug) chassis-unix-daemon.c:121: we are the child: 1235
+2023-05-22 09:52:11: (critical) plugin proxy 0.8.5 started
+2023-05-22 09:52:11: (debug) max open file-descriptors = 1024
+2023-05-22 09:52:11: (message) proxy listening on port :4040
+2023-05-22 09:52:11: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 09:52:11: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 09:52:11: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 09:52:11: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 09:52:11: (debug) now running as user: root (0/0)
+2023-05-22 09:52:16: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1245 alive2023-05-22 09:52:16: (debug) chassis-unix-daemon.c:121: we are the child: 1245
+
+2023-05-22 09:52:16: (debug) chassis-unix-daemon.c:157: waiting for 12452023-05-22 09:52:16: (critical) plugin proxy 0.8.5 started
+
+2023-05-22 09:52:16: (critical) plugin admin 0.8.5 started
+2023-05-22 09:52:16: (debug) max open file-descriptors = 1024
+2023-05-22 09:52:16: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 09:52:16: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 09:52:16: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 09:52:16: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 09:52:16: (message) shutting down normally, exit code is: 1
+2023-05-22 09:52:16: (debug) chassis-unix-daemon.c:167: 1245 returned: 1245
+2023-05-22 09:52:16: (message) chassis-unix-daemon.c:176: [angel] PID=1245 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 09:52:16: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 09:52:16: (message) shutting down normally, exit code is: 1
+2023-05-22 09:52:16: (debug) chassis-unix-daemon.c:167: 1235 returned: 1235
+2023-05-22 09:52:16: (critical) chassis-unix-daemon.c:189: [angel] PID=1235 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 09:52:18: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1248 alive
+2023-05-22 09:52:18: (debug) chassis-unix-daemon.c:157: waiting for 1248
+2023-05-22 09:52:18: (debug) chassis-unix-daemon.c:121: we are the child: 1248
+2023-05-22 09:52:18: (critical) plugin proxy 0.8.5 started
+2023-05-22 09:52:18: (debug) max open file-descriptors = 1024
+2023-05-22 09:52:18: (message) proxy listening on port :4040
+2023-05-22 09:52:18: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 09:52:18: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 09:52:18: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 09:52:18: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 09:52:18: (debug) now running as user: root (0/0)
+2023-05-22 10:30:37: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1212 alive
+2023-05-22 10:30:37: (debug) chassis-unix-daemon.c:157: waiting for 1212
+2023-05-22 10:30:37: (debug) chassis-unix-daemon.c:121: we are the child: 1212
+2023-05-22 10:30:37: (critical) plugin proxy 0.8.5 started
+2023-05-22 10:30:37: (debug) max open file-descriptors = 1024
+2023-05-22 10:30:37: (message) proxy listening on port :4040
+2023-05-22 10:30:37: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 10:30:37: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 10:30:37: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 10:30:37: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 10:30:37: (debug) now running as user: root (0/0)
+2023-05-22 17:18:39: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1391 alive
+2023-05-22 17:18:39: (debug) chassis-unix-daemon.c:157: waiting for 1391
+2023-05-22 17:18:39: (debug) chassis-unix-daemon.c:121: we are the child: 1391
+2023-05-22 17:18:39: (critical) plugin proxy 0.8.5 started
+2023-05-22 17:18:39: (debug) max open file-descriptors = 1024
+2023-05-22 17:18:39: (message) proxy listening on port :4040
+2023-05-22 17:18:39: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 17:18:39: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 17:18:39: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 17:18:39: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 17:18:39: (debug) now running as user: root (0/0)
+2023-05-22 17:34:00: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-22 17:41:55: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1527 alive
+2023-05-22 17:41:55: (debug) chassis-unix-daemon.c:157: waiting for 1527
+2023-05-22 17:41:55: (debug) chassis-unix-daemon.c:121: we are the child: 1527
+2023-05-22 17:41:55: (critical) plugin proxy 0.8.5 started
+2023-05-22 17:41:55: (debug) max open file-descriptors = 1024
+2023-05-22 17:41:55: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 17:41:55: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 17:41:55: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 17:41:55: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 17:41:55: (message) shutting down normally, exit code is: 1
+2023-05-22 17:41:55: (debug) chassis-unix-daemon.c:167: 1527 returned: 1527
+2023-05-22 17:41:55: (message) chassis-unix-daemon.c:176: [angel] PID=1527 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 17:41:55: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 17:41:55: (message) shutting down normally, exit code is: 1
+2023-05-22 17:41:55: (debug) chassis-unix-daemon.c:167: 1391 returned: 1391
+2023-05-22 17:41:55: (critical) chassis-unix-daemon.c:189: [angel] PID=1391 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 17:41:57: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1528 alive
+2023-05-22 17:41:57: (debug) chassis-unix-daemon.c:157: waiting for 1528
+2023-05-22 17:41:57: (debug) chassis-unix-daemon.c:121: we are the child: 1528
+2023-05-22 17:41:57: (critical) plugin proxy 0.8.5 started
+2023-05-22 17:41:57: (debug) max open file-descriptors = 1024
+2023-05-22 17:41:57: (message) proxy listening on port :4040
+2023-05-22 17:41:57: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 17:41:57: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 17:41:57: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 17:41:57: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 17:41:57: (debug) now running as user: root (0/0)
+2023-05-22 17:49:14: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-22 17:50:29: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1628 alive
+2023-05-22 17:50:29: (debug) chassis-unix-daemon.c:157: waiting for 1628
+2023-05-22 17:50:29: (debug) chassis-unix-daemon.c:121: we are the child: 1628
+2023-05-22 17:50:29: (critical) plugin proxy 0.8.5 started
+2023-05-22 17:50:29: (debug) max open file-descriptors = 1024
+2023-05-22 17:50:29: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 17:50:29: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 17:50:29: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 17:50:29: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 17:50:29: (message) shutting down normally, exit code is: 1
+2023-05-22 17:50:29: (debug) chassis-unix-daemon.c:167: 1628 returned: 1628
+2023-05-22 17:50:29: (message) chassis-unix-daemon.c:176: [angel] PID=1628 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 17:50:29: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 17:50:29: (message) shutting down normally, exit code is: 1
+2023-05-22 17:50:29: (debug) chassis-unix-daemon.c:167: 1528 returned: 1528
+2023-05-22 17:50:29: (critical) chassis-unix-daemon.c:189: [angel] PID=1528 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 17:50:31: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1629 alive
+2023-05-22 17:50:31: (debug) chassis-unix-daemon.c:157: waiting for 1629
+2023-05-22 17:50:31: (debug) chassis-unix-daemon.c:121: we are the child: 1629
+2023-05-22 17:50:31: (critical) plugin proxy 0.8.5 started
+2023-05-22 17:50:31: (debug) max open file-descriptors = 1024
+2023-05-22 17:50:31: (message) proxy listening on port :4040
+2023-05-22 17:50:31: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 17:50:31: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 17:50:31: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 17:50:31: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 17:50:31: (debug) now running as user: root (0/0)
+2023-05-22 18:01:18: (debug) [network-mysqld.c:1134]: error on server connection (fd: 12 event: 2). closing client connection.
+2023-05-22 18:01:18: (message) proxy-plugin.c.1756: connect(192.168.88.140:3306) failed: Connection refused. Retrying with different backend.
+2023-05-22 18:01:18: (critical) proxy-plugin.c.1345: I have no server backend, closing connection
+2023-05-22 18:01:18: (critical) network-mysqld.c.1621: plugin_call(CON_STATE_READ_QUERY) failed
+2023-05-22 18:01:18: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-22 18:10:00: (debug) network-backend.c.184: backend 192.168.88.140:3306 was down for more than 4 sec, waking it up
+2023-05-22 21:52:43: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1211 alive
+2023-05-22 21:52:43: (debug) chassis-unix-daemon.c:121: we are the child: 1211
+2023-05-22 21:52:43: (critical) plugin proxy 0.8.5 started2023-05-22 21:52:43: (debug) chassis-unix-daemon.c:157: waiting for 1211
+
+2023-05-22 21:52:43: (debug) max open file-descriptors = 1024
+2023-05-22 21:52:43: (message) proxy listening on port :4040
+2023-05-22 21:52:43: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 21:52:43: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 21:52:43: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 21:52:43: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 21:52:43: (debug) now running as user: root (0/0)
+2023-05-22 22:01:01: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1234 alive
+2023-05-22 22:01:01: (debug) chassis-unix-daemon.c:157: waiting for 1234
+2023-05-22 22:01:01: (debug) chassis-unix-daemon.c:121: we are the child: 1234
+2023-05-22 22:01:01: (critical) plugin proxy 0.8.5 started
+2023-05-22 22:01:01: (debug) max open file-descriptors = 1024
+2023-05-22 22:01:01: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 22:01:01: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 22:01:01: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 22:01:01: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 22:01:01: (message) shutting down normally, exit code is: 1
+2023-05-22 22:01:01: (debug) chassis-unix-daemon.c:167: 1234 returned: 1234
+2023-05-22 22:01:01: (message) chassis-unix-daemon.c:176: [angel] PID=1234 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 22:01:01: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 22:01:01: (message) shutting down normally, exit code is: 1
+2023-05-22 22:01:01: (critical) (lua-error) [/usr/local/mysql-proxy/share/doc/mysql-proxy/rw-splitting.lua]
+[string "/usr/local/mysql-proxy/share/doc/mysql-prox..."]:61: attempt to call global 'connect_server' (a nil value)
+2023-05-22 22:01:40: (critical) last message repeated 1 times
+2023-05-22 22:01:40: (critical) (lua-error) [/usr/local/mysql-proxy/share/doc/mysql-proxy/rw-splitting.lua]
+[string "/usr/local/mysql-proxy/share/doc/mysql-prox..."]:61: attempt to call global 'connect_server' (a nil value)
+2023-05-22 22:03:44: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1261 alive
+2023-05-22 22:03:44: (debug) chassis-unix-daemon.c:157: waiting for 1261
+2023-05-22 22:03:44: (debug) chassis-unix-daemon.c:121: we are the child: 1261
+2023-05-22 22:03:44: (critical) plugin proxy 0.8.5 started
+2023-05-22 22:03:44: (debug) max open file-descriptors = 1024
+2023-05-22 22:03:44: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 22:03:44: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 22:03:44: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 22:03:44: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 22:03:44: (message) shutting down normally, exit code is: 1
+2023-05-22 22:03:44: (debug) chassis-unix-daemon.c:167: 1261 returned: 1261
+2023-05-22 22:03:44: (message) chassis-unix-daemon.c:176: [angel] PID=1261 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 22:03:44: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 22:03:44: (message) shutting down normally, exit code is: 1
+2023-05-22 22:03:44: (debug) chassis-unix-daemon.c:167: 1211 returned: 1211
+2023-05-22 22:03:44: (critical) chassis-unix-daemon.c:189: [angel] PID=1211 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 22:03:46: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1262 alive
+2023-05-22 22:03:46: (debug) chassis-unix-daemon.c:157: waiting for 1262
+2023-05-22 22:03:46: (debug) chassis-unix-daemon.c:121: we are the child: 1262
+2023-05-22 22:03:46: (critical) plugin proxy 0.8.5 started
+2023-05-22 22:03:46: (debug) max open file-descriptors = 1024
+2023-05-22 22:03:46: (message) proxy listening on port :4040
+2023-05-22 22:03:46: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 22:03:46: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 22:03:46: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 22:03:46: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 22:03:46: (debug) now running as user: root (0/0)
+2023-05-22 22:09:19: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1276 alive
+2023-05-22 22:09:19: (debug) chassis-unix-daemon.c:157: waiting for 1276
+2023-05-22 22:09:19: (debug) chassis-unix-daemon.c:121: we are the child: 1276
+2023-05-22 22:09:19: (critical) plugin proxy 0.8.5 started
+2023-05-22 22:09:19: (debug) max open file-descriptors = 1024
+2023-05-22 22:09:19: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 22:09:19: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 22:09:19: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 22:09:19: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 22:09:19: (message) shutting down normally, exit code is: 1
+2023-05-22 22:09:19: (debug) chassis-unix-daemon.c:167: 1276 returned: 1276
+2023-05-22 22:09:19: (message) chassis-unix-daemon.c:176: [angel] PID=1276 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 22:09:19: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 22:09:19: (message) shutting down normally, exit code is: 1
+2023-05-22 22:09:19: (debug) chassis-unix-daemon.c:167: 1262 returned: 1262
+2023-05-22 22:09:19: (critical) chassis-unix-daemon.c:189: [angel] PID=1262 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 22:09:21: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1277 alive
+2023-05-22 22:09:21: (debug) chassis-unix-daemon.c:157: waiting for 1277
+2023-05-22 22:09:21: (debug) chassis-unix-daemon.c:121: we are the child: 1277
+2023-05-22 22:09:21: (critical) plugin proxy 0.8.5 started
+2023-05-22 22:09:21: (debug) max open file-descriptors = 1024
+2023-05-22 22:09:21: (message) proxy listening on port :4040
+2023-05-22 22:09:21: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 22:09:21: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 22:09:21: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 22:09:21: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 22:09:21: (debug) now running as user: root (0/0)
+2023-05-22 22:11:19: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1297 alive
+2023-05-22 22:11:19: (debug) chassis-unix-daemon.c:157: waiting for 1297
+2023-05-22 22:11:19: (debug) chassis-unix-daemon.c:121: we are the child: 1297
+2023-05-22 22:11:19: (critical) plugin proxy 0.8.5 started
+2023-05-22 22:11:19: (debug) max open file-descriptors = 1024
+2023-05-22 22:11:19: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 22:11:19: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 22:11:19: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 22:11:19: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 22:11:19: (message) shutting down normally, exit code is: 1
+2023-05-22 22:11:19: (debug) chassis-unix-daemon.c:167: 1297 returned: 1297
+2023-05-22 22:11:19: (message) chassis-unix-daemon.c:176: [angel] PID=1297 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 22:11:19: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 22:11:19: (message) shutting down normally, exit code is: 1
+2023-05-22 22:11:19: (debug) chassis-unix-daemon.c:167: 1277 returned: 1277
+2023-05-22 22:11:19: (critical) chassis-unix-daemon.c:189: [angel] PID=1277 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 22:11:21: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1298 alive
+2023-05-22 22:11:21: (debug) chassis-unix-daemon.c:157: waiting for 1298
+2023-05-22 22:11:21: (debug) chassis-unix-daemon.c:121: we are the child: 1298
+2023-05-22 22:11:21: (critical) plugin proxy 0.8.5 started
+2023-05-22 22:11:21: (debug) max open file-descriptors = 1024
+2023-05-22 22:11:21: (message) proxy listening on port :4040
+2023-05-22 22:11:21: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 22:11:21: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 22:11:21: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 22:11:21: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 22:11:21: (debug) now running as user: root (0/0)
+2023-05-22 22:12:19: (debug) chassis-unix-daemon.c:121: we are the child: 13112023-05-22 22:12:19: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1311 alive
+
+2023-05-22 22:12:19: (critical) plugin proxy 0.8.5 started
+2023-05-22 22:12:19: (debug) chassis-unix-daemon.c:157: waiting for 1311
+2023-05-22 22:12:19: (debug) max open file-descriptors = 1024
+2023-05-22 22:12:19: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 22:12:19: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 22:12:19: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 22:12:19: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 22:12:19: (message) shutting down normally, exit code is: 1
+2023-05-22 22:12:19: (debug) chassis-unix-daemon.c:167: 1311 returned: 1311
+2023-05-22 22:12:19: (message) chassis-unix-daemon.c:176: [angel] PID=1311 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 22:12:19: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 22:12:19: (message) shutting down normally, exit code is: 1
+2023-05-22 22:12:19: (debug) chassis-unix-daemon.c:167: 1298 returned: 1298
+2023-05-22 22:12:19: (critical) chassis-unix-daemon.c:189: [angel] PID=1298 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 22:12:21: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1312 alive
+2023-05-22 22:12:21: (debug) chassis-unix-daemon.c:157: waiting for 1312
+2023-05-22 22:12:21: (debug) chassis-unix-daemon.c:121: we are the child: 1312
+2023-05-22 22:12:21: (critical) plugin proxy 0.8.5 started
+2023-05-22 22:12:21: (debug) max open file-descriptors = 1024
+2023-05-22 22:12:21: (message) proxy listening on port :4040
+2023-05-22 22:12:21: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 22:12:21: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 22:12:21: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 22:12:21: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 22:12:21: (debug) now running as user: root (0/0)
+2023-05-22 23:34:49: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-22 23:35:20: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1460 alive2023-05-22 23:35:20: (debug) chassis-unix-daemon.c:121: we are the child: 1460
+
+2023-05-22 23:35:20: (critical) plugin proxy 0.8.5 started2023-05-22 23:35:20: (debug) chassis-unix-daemon.c:157: waiting for 1460
+
+2023-05-22 23:35:20: (debug) max open file-descriptors = 1024
+2023-05-22 23:35:20: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 23:35:20: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 23:35:20: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 23:35:20: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 23:35:20: (message) shutting down normally, exit code is: 1
+2023-05-22 23:35:20: (debug) chassis-unix-daemon.c:167: 1460 returned: 1460
+2023-05-22 23:35:20: (message) chassis-unix-daemon.c:176: [angel] PID=1460 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 23:35:20: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 23:35:20: (message) shutting down normally, exit code is: 1
+2023-05-22 23:35:20: (debug) chassis-unix-daemon.c:167: 1312 returned: 1312
+2023-05-22 23:35:20: (critical) chassis-unix-daemon.c:189: [angel] PID=1312 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 23:35:22: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1463 alive
+2023-05-22 23:35:22: (debug) chassis-unix-daemon.c:157: waiting for 1463
+2023-05-22 23:35:22: (debug) chassis-unix-daemon.c:121: we are the child: 1463
+2023-05-22 23:35:22: (critical) plugin proxy 0.8.5 started
+2023-05-22 23:35:22: (debug) max open file-descriptors = 1024
+2023-05-22 23:35:22: (message) proxy listening on port :4040
+2023-05-22 23:35:22: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 23:35:22: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 23:35:22: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 23:35:22: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 23:35:22: (debug) now running as user: root (0/0)
+2023-05-22 23:35:30: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-22 23:37:45: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1555 alive
+2023-05-22 23:37:45: (debug) chassis-unix-daemon.c:157: waiting for 1555
+2023-05-22 23:37:45: (debug) chassis-unix-daemon.c:121: we are the child: 1555
+2023-05-22 23:37:45: (critical) plugin proxy 0.8.5 started
+2023-05-22 23:37:45: (debug) max open file-descriptors = 1024
+2023-05-22 23:37:45: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 23:37:45: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 23:37:45: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 23:37:45: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 23:37:45: (message) shutting down normally, exit code is: 1
+2023-05-22 23:37:45: (debug) chassis-unix-daemon.c:167: 1555 returned: 1555
+2023-05-22 23:37:45: (message) chassis-unix-daemon.c:176: [angel] PID=1555 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 23:37:45: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 23:37:45: (message) shutting down normally, exit code is: 1
+2023-05-22 23:37:45: (debug) chassis-unix-daemon.c:167: 1463 returned: 1463
+2023-05-22 23:37:45: (critical) chassis-unix-daemon.c:189: [angel] PID=1463 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 23:37:47: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1556 alive
+2023-05-22 23:37:47: (debug) chassis-unix-daemon.c:157: waiting for 1556
+2023-05-22 23:37:47: (debug) chassis-unix-daemon.c:121: we are the child: 1556
+2023-05-22 23:37:47: (critical) plugin proxy 0.8.5 started
+2023-05-22 23:37:47: (debug) max open file-descriptors = 1024
+2023-05-22 23:37:47: (message) proxy listening on port :4040
+2023-05-22 23:37:47: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 23:37:47: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 23:37:47: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 23:37:47: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 23:37:47: (debug) now running as user: root (0/0)
+2023-05-22 23:40:50: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1668 alive
+2023-05-22 23:40:50: (debug) chassis-unix-daemon.c:157: waiting for 1668
+2023-05-22 23:40:50: (debug) chassis-unix-daemon.c:121: we are the child: 1668
+2023-05-22 23:40:50: (critical) plugin proxy 0.8.5 started
+2023-05-22 23:40:50: (debug) max open file-descriptors = 1024
+2023-05-22 23:40:50: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-22 23:40:50: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-22 23:40:50: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-22 23:40:50: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-22 23:40:50: (message) shutting down normally, exit code is: 1
+2023-05-22 23:40:50: (debug) chassis-unix-daemon.c:167: 1668 returned: 1668
+2023-05-22 23:40:50: (message) chassis-unix-daemon.c:176: [angel] PID=1668 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-22 23:40:50: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-22 23:40:50: (message) shutting down normally, exit code is: 1
+2023-05-22 23:40:50: (debug) chassis-unix-daemon.c:167: 1556 returned: 1556
+2023-05-22 23:40:50: (critical) chassis-unix-daemon.c:189: [angel] PID=1556 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-22 23:40:52: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1669 alive
+2023-05-22 23:40:52: (debug) chassis-unix-daemon.c:157: waiting for 1669
+2023-05-22 23:40:52: (debug) chassis-unix-daemon.c:121: we are the child: 1669
+2023-05-22 23:40:52: (critical) plugin proxy 0.8.5 started
+2023-05-22 23:40:52: (debug) max open file-descriptors = 1024
+2023-05-22 23:40:52: (message) proxy listening on port :4040
+2023-05-22 23:40:52: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 23:40:52: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 23:40:52: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 23:40:52: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 23:40:52: (debug) now running as user: root (0/0)
+2023-05-22 23:54:21: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1200 alive
+2023-05-22 23:54:21: (debug) chassis-unix-daemon.c:157: waiting for 1200
+2023-05-22 23:54:21: (debug) chassis-unix-daemon.c:121: we are the child: 1200
+2023-05-22 23:54:21: (critical) plugin proxy 0.8.5 started
+2023-05-22 23:54:21: (debug) max open file-descriptors = 1024
+2023-05-22 23:54:21: (message) proxy listening on port :4040
+2023-05-22 23:54:21: (message) added read/write backend: 192.168.88.140:3306
+2023-05-22 23:54:21: (message) added read-only backend: 192.168.88.131:3306
+2023-05-22 23:54:21: (message) added read-only backend: 192.168.88.133:3306
+2023-05-22 23:54:21: (message) added read-only backend: 192.168.88.134:3306
+2023-05-22 23:54:21: (debug) now running as user: root (0/0)
+2023-05-23 00:20:13: (debug) chassis-unix-daemon.c:121: we are the child: 1581
+2023-05-23 00:20:13: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:20:13: (debug) max open file-descriptors = 1024
+2023-05-23 00:20:13: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 00:20:13: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 00:20:13: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 00:20:13: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 00:20:13: (message) shutting down normally, exit code is: 1
+2023-05-23 00:20:13: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1581 alive
+2023-05-23 00:20:13: (debug) chassis-unix-daemon.c:157: waiting for 1581
+2023-05-23 00:20:13: (debug) chassis-unix-daemon.c:167: 1581 returned: 1581
+2023-05-23 00:20:13: (message) chassis-unix-daemon.c:176: [angel] PID=1581 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 00:20:13: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 00:20:13: (message) shutting down normally, exit code is: 1
+2023-05-23 00:20:13: (debug) chassis-unix-daemon.c:167: 1200 returned: 1200
+2023-05-23 00:20:13: (critical) chassis-unix-daemon.c:189: [angel] PID=1200 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 00:20:15: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1582 alive
+2023-05-23 00:20:15: (debug) chassis-unix-daemon.c:157: waiting for 1582
+2023-05-23 00:20:15: (debug) chassis-unix-daemon.c:121: we are the child: 1582
+2023-05-23 00:20:15: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:20:15: (debug) max open file-descriptors = 1024
+2023-05-23 00:20:15: (message) proxy listening on port :4040
+2023-05-23 00:20:15: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 00:20:15: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 00:20:15: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 00:20:15: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 00:20:15: (debug) now running as user: root (0/0)
+2023-05-23 00:29:38: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1610 alive
+2023-05-23 00:29:38: (debug) chassis-unix-daemon.c:157: waiting for 1610
+2023-05-23 00:29:38: (debug) chassis-unix-daemon.c:121: we are the child: 1610
+2023-05-23 00:29:38: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:29:38: (debug) max open file-descriptors = 1024
+2023-05-23 00:29:38: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 00:29:38: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 00:29:38: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 00:29:38: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 00:29:38: (message) shutting down normally, exit code is: 1
+2023-05-23 00:29:38: (debug) chassis-unix-daemon.c:167: 1610 returned: 1610
+2023-05-23 00:29:38: (message) chassis-unix-daemon.c:176: [angel] PID=1610 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 00:29:38: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 00:29:38: (message) shutting down normally, exit code is: 1
+2023-05-23 00:29:38: (debug) chassis-unix-daemon.c:167: 1582 returned: 1582
+2023-05-23 00:29:38: (critical) chassis-unix-daemon.c:189: [angel] PID=1582 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 00:29:40: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1611 alive
+2023-05-23 00:29:40: (debug) chassis-unix-daemon.c:157: waiting for 1611
+2023-05-23 00:29:40: (debug) chassis-unix-daemon.c:121: we are the child: 1611
+2023-05-23 00:29:40: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:29:40: (debug) max open file-descriptors = 1024
+2023-05-23 00:29:40: (message) proxy listening on port :4040
+2023-05-23 00:29:40: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 00:29:40: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 00:29:40: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 00:29:40: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 00:29:40: (debug) now running as user: root (0/0)
+2023-05-23 00:33:27: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1631 alive
+2023-05-23 00:33:27: (debug) chassis-unix-daemon.c:157: waiting for 1631
+2023-05-23 00:33:27: (debug) chassis-unix-daemon.c:121: we are the child: 1631
+2023-05-23 00:33:27: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:33:27: (debug) max open file-descriptors = 1024
+2023-05-23 00:33:27: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 00:33:27: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 00:33:27: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 00:33:27: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 00:33:27: (message) shutting down normally, exit code is: 1
+2023-05-23 00:33:27: (debug) chassis-unix-daemon.c:167: 1631 returned: 1631
+2023-05-23 00:33:27: (message) chassis-unix-daemon.c:176: [angel] PID=1631 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 00:33:27: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 00:33:27: (message) shutting down normally, exit code is: 1
+2023-05-23 00:33:27: (debug) chassis-unix-daemon.c:167: 1611 returned: 1611
+2023-05-23 00:33:27: (critical) chassis-unix-daemon.c:189: [angel] PID=1611 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 00:33:29: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1632 alive
+2023-05-23 00:33:29: (debug) chassis-unix-daemon.c:157: waiting for 1632
+2023-05-23 00:33:29: (debug) chassis-unix-daemon.c:121: we are the child: 1632
+2023-05-23 00:33:29: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:33:29: (debug) max open file-descriptors = 1024
+2023-05-23 00:33:29: (message) proxy listening on port :4040
+2023-05-23 00:33:29: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 00:33:29: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 00:33:29: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 00:33:29: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 00:33:29: (debug) now running as user: root (0/0)
+2023-05-23 00:37:54: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1968 alive2023-05-23 00:37:54: (debug) chassis-unix-daemon.c:121: we are the child: 1968
+
+2023-05-23 00:37:54: (debug) chassis-unix-daemon.c:157: waiting for 19682023-05-23 00:37:54: (critical) plugin proxy 0.8.5 started
+
+2023-05-23 00:37:54: (debug) max open file-descriptors = 1024
+2023-05-23 00:37:54: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 00:37:54: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 00:37:54: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 00:37:54: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 00:37:54: (message) shutting down normally, exit code is: 1
+2023-05-23 00:37:54: (debug) chassis-unix-daemon.c:167: 1968 returned: 1968
+2023-05-23 00:37:54: (message) chassis-unix-daemon.c:176: [angel] PID=1968 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 00:37:54: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 00:37:54: (message) shutting down normally, exit code is: 1
+2023-05-23 00:37:54: (debug) chassis-unix-daemon.c:167: 1632 returned: 1632
+2023-05-23 00:37:54: (critical) chassis-unix-daemon.c:189: [angel] PID=1632 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 00:37:56: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1969 alive
+2023-05-23 00:37:56: (debug) chassis-unix-daemon.c:157: waiting for 1969
+2023-05-23 00:37:56: (debug) chassis-unix-daemon.c:121: we are the child: 1969
+2023-05-23 00:37:56: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:37:56: (debug) max open file-descriptors = 1024
+2023-05-23 00:37:56: (message) proxy listening on port :4040
+2023-05-23 00:37:56: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 00:37:56: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 00:37:56: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 00:37:56: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 00:37:56: (debug) now running as user: root (0/0)
+2023-05-23 00:38:56: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1981 alive
+2023-05-23 00:38:56: (debug) chassis-unix-daemon.c:157: waiting for 1981
+2023-05-23 00:38:56: (debug) chassis-unix-daemon.c:121: we are the child: 1981
+2023-05-23 00:38:56: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:38:56: (debug) max open file-descriptors = 1024
+2023-05-23 00:38:56: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 00:38:56: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 00:38:56: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 00:38:56: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 00:38:56: (message) shutting down normally, exit code is: 1
+2023-05-23 00:38:56: (debug) chassis-unix-daemon.c:167: 1981 returned: 1981
+2023-05-23 00:38:56: (message) chassis-unix-daemon.c:176: [angel] PID=1981 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 00:38:56: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 00:38:56: (message) shutting down normally, exit code is: 1
+2023-05-23 00:38:56: (debug) chassis-unix-daemon.c:167: 1969 returned: 1969
+2023-05-23 00:38:56: (critical) chassis-unix-daemon.c:189: [angel] PID=1969 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 00:38:58: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=1982 alive
+2023-05-23 00:38:58: (debug) chassis-unix-daemon.c:157: waiting for 1982
+2023-05-23 00:38:58: (debug) chassis-unix-daemon.c:121: we are the child: 1982
+2023-05-23 00:38:58: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:38:58: (debug) max open file-descriptors = 1024
+2023-05-23 00:38:58: (message) proxy listening on port :4040
+2023-05-23 00:38:58: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 00:38:58: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 00:38:58: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 00:38:58: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 00:38:58: (debug) now running as user: root (0/0)
+2023-05-23 00:39:29: (critical) network-mysqld-packet.c:148: COM_QUERY should not be (OK|NULL|ERR), got: 0xfb
+2023-05-23 00:39:29: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-23 00:39:29: (critical) network-mysqld.c:613: received packet-id 4, but expected 1 ... out of sync.
+2023-05-23 00:39:29: (critical) network-mysqld.c.1728: network_mysqld_read(CON_STATE_READ_QUERY_RESULT) returned an error
+2023-05-23 00:39:29: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-23 00:39:29: (critical) ioctl(12, FIONREAD, ...) said there is something to read, oops: 20
+2023-05-23 00:43:10: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2009 alive
+2023-05-23 00:43:10: (debug) chassis-unix-daemon.c:157: waiting for 2009
+2023-05-23 00:43:10: (debug) chassis-unix-daemon.c:121: we are the child: 2009
+2023-05-23 00:43:10: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:43:10: (debug) max open file-descriptors = 1024
+2023-05-23 00:43:10: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 00:43:10: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 00:43:10: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 00:43:10: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 00:43:10: (message) shutting down normally, exit code is: 1
+2023-05-23 00:43:10: (debug) chassis-unix-daemon.c:167: 2009 returned: 2009
+2023-05-23 00:43:10: (message) chassis-unix-daemon.c:176: [angel] PID=2009 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 00:43:10: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 00:43:10: (message) shutting down normally, exit code is: 1
+2023-05-23 00:43:10: (debug) chassis-unix-daemon.c:167: 1982 returned: 1982
+2023-05-23 00:43:10: (critical) chassis-unix-daemon.c:189: [angel] PID=1982 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 00:43:12: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2010 alive
+2023-05-23 00:43:12: (debug) chassis-unix-daemon.c:157: waiting for 2010
+2023-05-23 00:43:12: (debug) chassis-unix-daemon.c:121: we are the child: 2010
+2023-05-23 00:43:12: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:43:12: (debug) max open file-descriptors = 1024
+2023-05-23 00:43:12: (message) proxy listening on port :4040
+2023-05-23 00:43:12: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 00:43:12: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 00:43:12: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 00:43:12: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 00:43:12: (debug) now running as user: root (0/0)
+2023-05-23 00:43:27: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2022 alive2023-05-23 00:43:27: (debug) chassis-unix-daemon.c:121: we are the child: 2022
+
+2023-05-23 00:43:27: (debug) chassis-unix-daemon.c:157: waiting for 20222023-05-23 00:43:27: (critical) plugin proxy 0.8.5 started
+
+2023-05-23 00:43:27: (debug) max open file-descriptors = 1024
+2023-05-23 00:43:27: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 00:43:27: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 00:43:27: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 00:43:27: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 00:43:27: (message) shutting down normally, exit code is: 1
+2023-05-23 00:43:27: (debug) chassis-unix-daemon.c:167: 2022 returned: 2022
+2023-05-23 00:43:27: (message) chassis-unix-daemon.c:176: [angel] PID=2022 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 00:43:27: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 00:43:27: (message) shutting down normally, exit code is: 1
+2023-05-23 00:43:27: (debug) chassis-unix-daemon.c:167: 2010 returned: 2010
+2023-05-23 00:43:27: (critical) chassis-unix-daemon.c:189: [angel] PID=2010 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 00:43:29: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2023 alive
+2023-05-23 00:43:29: (debug) chassis-unix-daemon.c:157: waiting for 2023
+2023-05-23 00:43:29: (debug) chassis-unix-daemon.c:121: we are the child: 2023
+2023-05-23 00:43:29: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:43:29: (debug) max open file-descriptors = 1024
+2023-05-23 00:43:29: (message) proxy listening on port :4040
+2023-05-23 00:43:29: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 00:43:29: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 00:43:29: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 00:43:29: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 00:43:29: (debug) now running as user: root (0/0)
+2023-05-23 00:44:02: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2035 alive
+2023-05-23 00:44:02: (debug) chassis-unix-daemon.c:157: waiting for 2035
+2023-05-23 00:44:02: (debug) chassis-unix-daemon.c:121: we are the child: 2035
+2023-05-23 00:44:02: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:44:02: (debug) max open file-descriptors = 1024
+2023-05-23 00:44:02: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 00:44:02: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 00:44:02: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 00:44:02: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 00:44:02: (message) shutting down normally, exit code is: 1
+2023-05-23 00:44:02: (debug) chassis-unix-daemon.c:167: 2035 returned: 2035
+2023-05-23 00:44:02: (message) chassis-unix-daemon.c:176: [angel] PID=2035 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 00:44:02: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 00:44:02: (message) shutting down normally, exit code is: 1
+2023-05-23 00:44:02: (debug) chassis-unix-daemon.c:167: 2023 returned: 2023
+2023-05-23 00:44:02: (critical) chassis-unix-daemon.c:189: [angel] PID=2023 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 00:44:04: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2036 alive
+2023-05-23 00:44:04: (debug) chassis-unix-daemon.c:157: waiting for 2036
+2023-05-23 00:44:04: (debug) chassis-unix-daemon.c:121: we are the child: 2036
+2023-05-23 00:44:04: (critical) plugin proxy 0.8.5 started
+2023-05-23 00:44:04: (debug) max open file-descriptors = 1024
+2023-05-23 00:44:04: (message) proxy listening on port :4040
+2023-05-23 00:44:04: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 00:44:04: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 00:44:04: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 00:44:04: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 00:44:04: (debug) now running as user: root (0/0)
+2023-05-23 03:26:13: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2141 alive
+2023-05-23 03:26:13: (debug) chassis-unix-daemon.c:157: waiting for 2141
+2023-05-23 03:26:13: (debug) chassis-unix-daemon.c:121: we are the child: 2141
+2023-05-23 03:26:13: (critical) plugin proxy 0.8.5 started
+2023-05-23 03:26:13: (debug) max open file-descriptors = 1024
+2023-05-23 03:26:13: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 03:26:13: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 03:26:13: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 03:26:13: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 03:26:13: (message) shutting down normally, exit code is: 1
+2023-05-23 03:26:13: (debug) chassis-unix-daemon.c:167: 2141 returned: 2141
+2023-05-23 03:26:13: (message) chassis-unix-daemon.c:176: [angel] PID=2141 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 03:26:13: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 03:26:13: (message) shutting down normally, exit code is: 1
+2023-05-23 03:26:13: (debug) chassis-unix-daemon.c:167: 2036 returned: 2036
+2023-05-23 03:26:13: (critical) chassis-unix-daemon.c:189: [angel] PID=2036 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 03:26:15: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2142 alive
+2023-05-23 03:26:15: (debug) chassis-unix-daemon.c:157: waiting for 2142
+2023-05-23 03:26:15: (debug) chassis-unix-daemon.c:121: we are the child: 2142
+2023-05-23 03:26:15: (critical) plugin proxy 0.8.5 started
+2023-05-23 03:26:15: (debug) max open file-descriptors = 1024
+2023-05-23 03:26:15: (message) proxy listening on port :4040
+2023-05-23 03:26:15: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 03:26:15: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 03:26:15: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 03:26:15: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 03:26:15: (debug) now running as user: root (0/0)
+2023-05-23 03:43:34: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2160 alive
+2023-05-23 03:43:34: (debug) chassis-unix-daemon.c:157: waiting for 2160
+2023-05-23 03:43:34: (debug) chassis-unix-daemon.c:121: we are the child: 2160
+2023-05-23 03:43:34: (critical) plugin proxy 0.8.5 started
+2023-05-23 03:43:34: (debug) max open file-descriptors = 1024
+2023-05-23 03:43:34: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 03:43:34: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 03:43:34: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 03:43:34: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 03:43:34: (message) shutting down normally, exit code is: 1
+2023-05-23 03:43:34: (debug) chassis-unix-daemon.c:167: 2160 returned: 2160
+2023-05-23 03:43:34: (message) chassis-unix-daemon.c:176: [angel] PID=2160 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 03:43:34: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 03:43:34: (message) shutting down normally, exit code is: 1
+2023-05-23 03:43:34: (debug) chassis-unix-daemon.c:167: 2142 returned: 2142
+2023-05-23 03:43:34: (critical) chassis-unix-daemon.c:189: [angel] PID=2142 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 03:43:36: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2161 alive
+2023-05-23 03:43:36: (debug) chassis-unix-daemon.c:157: waiting for 2161
+2023-05-23 03:43:36: (debug) chassis-unix-daemon.c:121: we are the child: 2161
+2023-05-23 03:43:36: (critical) plugin proxy 0.8.5 started
+2023-05-23 03:43:36: (debug) max open file-descriptors = 1024
+2023-05-23 03:43:36: (message) proxy listening on port :4040
+2023-05-23 03:43:36: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 03:43:36: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 03:43:36: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 03:43:36: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 03:43:36: (debug) now running as user: root (0/0)
+2023-05-23 03:44:51: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2172 alive
+2023-05-23 03:44:51: (debug) chassis-unix-daemon.c:157: waiting for 2172
+2023-05-23 03:44:51: (debug) chassis-unix-daemon.c:121: we are the child: 2172
+2023-05-23 03:44:51: (critical) plugin proxy 0.8.5 started
+2023-05-23 03:44:51: (debug) max open file-descriptors = 1024
+2023-05-23 03:44:51: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 03:44:51: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 03:44:51: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 03:44:51: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 03:44:51: (message) shutting down normally, exit code is: 1
+2023-05-23 03:44:51: (debug) chassis-unix-daemon.c:167: 2172 returned: 2172
+2023-05-23 03:44:51: (message) chassis-unix-daemon.c:176: [angel] PID=2172 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 03:44:51: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 03:44:51: (message) shutting down normally, exit code is: 1
+2023-05-23 03:44:51: (debug) chassis-unix-daemon.c:167: 2161 returned: 2161
+2023-05-23 03:44:51: (critical) chassis-unix-daemon.c:189: [angel] PID=2161 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 03:44:53: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2173 alive
+2023-05-23 03:44:53: (debug) chassis-unix-daemon.c:157: waiting for 2173
+2023-05-23 03:44:53: (debug) chassis-unix-daemon.c:121: we are the child: 2173
+2023-05-23 03:44:53: (critical) plugin proxy 0.8.5 started
+2023-05-23 03:44:53: (debug) max open file-descriptors = 1024
+2023-05-23 03:44:53: (message) proxy listening on port :4040
+2023-05-23 03:44:53: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 03:44:53: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 03:44:53: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 03:44:53: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 03:44:53: (debug) now running as user: root (0/0)
+2023-05-23 03:52:28: (critical) network-mysqld-packet.c:148: COM_QUERY should not be (OK|NULL|ERR), got: 0xfb
+2023-05-23 03:52:28: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-23 03:52:28: (critical) network-mysqld.c:613: received packet-id 4, but expected 1 ... out of sync.
+2023-05-23 03:52:28: (critical) network-mysqld.c.1728: network_mysqld_read(CON_STATE_READ_QUERY_RESULT) returned an error
+2023-05-23 03:52:28: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-23 03:52:28: (critical) ioctl(12, FIONREAD, ...) said there is something to read, oops: 17
+2023-05-23 03:53:40: (critical) ioctl(12, FIONREAD, ...) said there is something to read, oops: 182
+2023-05-23 04:15:59: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2252 alive
+2023-05-23 04:15:59: (debug) chassis-unix-daemon.c:157: waiting for 2252
+2023-05-23 04:15:59: (debug) chassis-unix-daemon.c:121: we are the child: 2252
+2023-05-23 04:15:59: (critical) plugin proxy 0.8.5 started
+2023-05-23 04:15:59: (debug) max open file-descriptors = 1024
+2023-05-23 04:15:59: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 04:15:59: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 04:15:59: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 04:15:59: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 04:15:59: (message) shutting down normally, exit code is: 1
+2023-05-23 04:15:59: (debug) chassis-unix-daemon.c:167: 2252 returned: 2252
+2023-05-23 04:15:59: (message) chassis-unix-daemon.c:176: [angel] PID=2252 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 04:15:59: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 04:15:59: (message) shutting down normally, exit code is: 1
+2023-05-23 04:15:59: (debug) chassis-unix-daemon.c:167: 2173 returned: 2173
+2023-05-23 04:15:59: (critical) chassis-unix-daemon.c:189: [angel] PID=2173 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 04:16:01: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2253 alive
+2023-05-23 04:16:01: (debug) chassis-unix-daemon.c:157: waiting for 2253
+2023-05-23 04:16:01: (debug) chassis-unix-daemon.c:121: we are the child: 2253
+2023-05-23 04:16:01: (critical) plugin proxy 0.8.5 started
+2023-05-23 04:16:01: (debug) max open file-descriptors = 1024
+2023-05-23 04:16:01: (message) proxy listening on port :4040
+2023-05-23 04:16:01: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 04:16:01: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 04:16:01: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 04:16:01: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 04:16:01: (debug) now running as user: root (0/0)
+2023-05-23 04:16:34: (critical) network-mysqld-packet.c:148: COM_QUERY should not be (OK|NULL|ERR), got: 0xfb
+2023-05-23 04:16:34: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-23 04:16:45: (critical) network-mysqld.c:613: received packet-id 4, but expected 1 ... out of sync.
+2023-05-23 04:16:45: (critical) network-mysqld.c.1728: network_mysqld_read(CON_STATE_READ_QUERY_RESULT) returned an error
+2023-05-23 04:16:45: (debug) [network-mysqld.c:1134]: error on a connection (fd: -1 event: 0). closing client connection.
+2023-05-23 04:16:45: (critical) ioctl(12, FIONREAD, ...) said there is something to read, oops: 171
+2023-05-23 04:30:45: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2278 alive
+2023-05-23 04:30:45: (debug) chassis-unix-daemon.c:157: waiting for 2278
+2023-05-23 04:30:45: (debug) chassis-unix-daemon.c:121: we are the child: 2278
+2023-05-23 04:30:45: (critical) plugin proxy 0.8.5 started
+2023-05-23 04:30:45: (debug) max open file-descriptors = 1024
+2023-05-23 04:30:45: (critical) network-socket.c:492: bind(0.0.0.0:4040) failed: Address already in use (98)
+2023-05-23 04:30:45: (critical) chassis-mainloop.c:270: applying config of plugin proxy failed
+2023-05-23 04:30:45: (critical) mysql-proxy-cli.c:599: Failure from chassis_mainloop. Shutting down.
+2023-05-23 04:30:45: (message) Initiating shutdown, requested from mysql-proxy-cli.c:600
+2023-05-23 04:30:45: (message) shutting down normally, exit code is: 1
+2023-05-23 04:30:45: (debug) chassis-unix-daemon.c:167: 2278 returned: 2278
+2023-05-23 04:30:45: (message) chassis-unix-daemon.c:176: [angel] PID=2278 exited normally with exit-code = 1 (it used 1 kBytes max)
+2023-05-23 04:30:45: (message) Initiating shutdown, requested from mysql-proxy-cli.c:273
+2023-05-23 04:30:45: (message) shutting down normally, exit code is: 1
+2023-05-23 04:30:45: (debug) chassis-unix-daemon.c:167: 2253 returned: 2253
+2023-05-23 04:30:45: (critical) chassis-unix-daemon.c:189: [angel] PID=2253 died on signal=11 (it used 1 kBytes max) ... waiting 3min before restart
+2023-05-23 04:30:47: (message) chassis-unix-daemon.c:136: [angel] we try to keep PID=2279 alive
+2023-05-23 04:30:47: (debug) chassis-unix-daemon.c:157: waiting for 2279
+2023-05-23 04:30:47: (debug) chassis-unix-daemon.c:121: we are the child: 2279
+2023-05-23 04:30:47: (critical) plugin proxy 0.8.5 started
+2023-05-23 04:30:47: (debug) max open file-descriptors = 1024
+2023-05-23 04:30:47: (message) proxy listening on port :4040
+2023-05-23 04:30:47: (message) added read/write backend: 192.168.88.140:3306
+2023-05-23 04:30:47: (message) added read-only backend: 192.168.88.131:3306
+2023-05-23 04:30:47: (message) added read-only backend: 192.168.88.133:3306
+2023-05-23 04:30:47: (message) added read-only backend: 192.168.88.134:3306
+2023-05-23 04:30:47: (debug) now running as user: root (0/0)
+2023-05-23 12:38:50: (debug) [network-mysqld.c:1134]: error on server connection (fd: 12 event: 1). closing client connection.
