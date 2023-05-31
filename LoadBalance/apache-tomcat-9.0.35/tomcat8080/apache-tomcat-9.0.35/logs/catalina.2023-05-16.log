@@ -1,0 +1,246 @@
+16-May-2023 15:29:56.194 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.35
+16-May-2023 15:29:56.201 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 20:36:20 UTC
+16-May-2023 15:29:56.201 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.35.0
+16-May-2023 15:29:56.201 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Linux
+16-May-2023 15:29:56.202 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           3.10.0-1160.el7.x86_64
+16-May-2023 15:29:56.202 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+16-May-2023 15:29:56.202 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-1.el7.x86_64/jre
+16-May-2023 15:29:56.202 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_262-b10
+16-May-2023 15:29:56.202 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+16-May-2023 15:29:56.202 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35
+16-May-2023 15:29:56.202 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35
+16-May-2023 15:29:56.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/conf/logging.properties
+16-May-2023 15:29:56.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2023 15:29:56.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+16-May-2023 15:29:56.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2023 15:29:56.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2023 15:29:56.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+16-May-2023 15:29:56.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35
+16-May-2023 15:29:56.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35
+16-May-2023 15:29:56.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/temp
+16-May-2023 15:29:56.207 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+16-May-2023 15:29:56.425 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+16-May-2023 15:29:56.444 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[392]毫秒内初始化
+16-May-2023 15:29:56.467 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+16-May-2023 15:29:56.468 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.35]
+16-May-2023 15:29:56.474 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/ROOT]
+16-May-2023 15:29:56.638 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/ROOT]的部署已在[165]毫秒内完成
+16-May-2023 15:29:56.638 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/docs]
+16-May-2023 15:29:56.649 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/docs]的部署已在[11]毫秒内完成
+16-May-2023 15:29:56.649 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/examples]
+16-May-2023 15:29:56.817 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/examples]的部署已在[168]毫秒内完成
+16-May-2023 15:29:56.817 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/host-manager]
+16-May-2023 15:29:56.834 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/host-manager]的部署已在[17]毫秒内完成
+16-May-2023 15:29:56.834 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/manager]
+16-May-2023 15:29:56.846 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/manager]的部署已在[12]毫秒内完成
+16-May-2023 15:29:56.846 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/vod]
+16-May-2023 15:29:56.861 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/vod]的部署已在[14]毫秒内完成
+16-May-2023 15:29:56.863 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+16-May-2023 15:29:56.868 信息 [main] org.apache.catalina.startup.Catalina.start [423]毫秒后服务器启动
+16-May-2023 16:26:07.627 信息 [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess 从更新的字眼[file:/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/conf/tomcat-users.xml]重新加载内存用户数据库
+16-May-2023 16:26:07.628 严重 [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open 指定用户数据库[conf/tomcat-users.xml]未找到
+16-May-2023 16:26:08.129 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[]
+16-May-2023 16:26:08.134 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 的JDBC驱动程序注销失败
+	java.lang.NullPointerException
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1681)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1619)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:449)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5433)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1425)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1352)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-May-2023 16:26:08.641 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/examples]
+16-May-2023 16:26:08.643 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [examples] 的JDBC驱动程序注销失败
+	java.lang.IllegalStateException: java.io.FileNotFoundException: /usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar (没有那个文件或目录)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:101)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:256)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1137)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1679)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1619)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:449)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5433)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1425)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1352)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: java.io.FileNotFoundException: /usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar (没有那个文件或目录)
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+		at java.util.jar.JarFile.<init>(JarFile.java:166)
+		at java.util.jar.JarFile.<init>(JarFile.java:130)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:184)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:169)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:307)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+		... 31 more
+16-May-2023 16:26:09.146 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/host-manager]
+16-May-2023 16:26:09.148 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [host-manager] 的JDBC驱动程序注销失败
+	java.lang.NullPointerException
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1681)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1619)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:449)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5433)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1425)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1352)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-May-2023 16:26:09.649 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/vod]
+16-May-2023 16:26:09.650 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [vod] 的JDBC驱动程序注销失败
+	java.lang.NullPointerException
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1681)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1619)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:449)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5433)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1425)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1352)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-May-2023 16:26:10.153 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/manager]
+16-May-2023 16:26:10.154 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [manager] 的JDBC驱动程序注销失败
+	java.lang.NullPointerException
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1681)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1619)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:449)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5433)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1425)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1352)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-May-2023 16:26:10.656 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/docs]
+16-May-2023 16:26:10.657 警告 [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [docs] 的JDBC驱动程序注销失败
+	java.lang.NullPointerException
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1681)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1619)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1555)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:449)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5433)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:805)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1425)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1352)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1611)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:305)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1151)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1353)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1357)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1335)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+16-May-2023 16:32:30.715 信息 [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess 从更新的字眼[file:/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/conf/tomcat-users.xml]重新加载内存用户数据库
+16-May-2023 16:32:30.717 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/ROOT]
+16-May-2023 16:32:30.728 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/ROOT]的部署已在[10]毫秒内完成
+16-May-2023 16:32:30.728 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/docs]
+16-May-2023 16:32:30.738 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/docs]的部署已在[10]毫秒内完成
+16-May-2023 16:32:30.739 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/examples]
+16-May-2023 16:32:30.840 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/examples]的部署已在[100]毫秒内完成
+16-May-2023 16:32:30.840 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/host-manager]
+16-May-2023 16:32:30.851 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/host-manager]的部署已在[11]毫秒内完成
+16-May-2023 16:32:30.852 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/manager]
+16-May-2023 16:32:30.863 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/manager]的部署已在[11]毫秒内完成
+16-May-2023 16:32:30.863 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/vod]
+16-May-2023 16:32:30.870 信息 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/vod]的部署已在[7]毫秒内完成
+16-May-2023 16:41:11.137 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/edu]
+16-May-2023 16:41:11.146 信息 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/tomcat8080/apache-tomcat-9.0.35/webapps/edu]的部署已在[9]毫秒内完成
+16-May-2023 21:11:13.295 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+16-May-2023 21:11:13.338 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+16-May-2023 21:11:13.467 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+16-May-2023 21:11:13.479 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
