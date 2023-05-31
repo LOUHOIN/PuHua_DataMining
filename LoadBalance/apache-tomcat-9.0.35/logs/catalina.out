@@ -1,0 +1,84 @@
+/usr/java/apache-tomcat-9.0.35/bin/catalina.sh:行484: /local/jdk/jdk1.8.0_361/bin/java: 没有那个文件或目录
+/usr/java/apache-tomcat-9.0.35/bin/catalina.sh:行484: /local/jdk/jdk1.8.0_361/bin/java: 没有那个文件或目录
+14-May-2023 12:38:58.582 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.35
+14-May-2023 12:38:58.589 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 20:36:20 UTC
+14-May-2023 12:38:58.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.35.0
+14-May-2023 12:38:58.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Linux
+14-May-2023 12:38:58.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           3.10.0-1160.el7.x86_64
+14-May-2023 12:38:58.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+14-May-2023 12:38:58.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-1.el7.x86_64/jre
+14-May-2023 12:38:58.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_262-b10
+14-May-2023 12:38:58.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+14-May-2023 12:38:58.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /usr/java/apache-tomcat-9.0.35
+14-May-2023 12:38:58.590 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /usr/java/apache-tomcat-9.0.35
+14-May-2023 12:38:58.595 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/usr/java/apache-tomcat-9.0.35/conf/logging.properties
+14-May-2023 12:38:58.595 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-May-2023 12:38:58.595 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+14-May-2023 12:38:58.595 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-May-2023 12:38:58.595 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-May-2023 12:38:58.595 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+14-May-2023 12:38:58.595 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/usr/java/apache-tomcat-9.0.35
+14-May-2023 12:38:58.595 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/usr/java/apache-tomcat-9.0.35
+14-May-2023 12:38:58.595 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/usr/java/apache-tomcat-9.0.35/temp
+14-May-2023 12:38:58.595 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+14-May-2023 12:38:58.815 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+14-May-2023 12:38:58.833 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[391]毫秒内初始化
+14-May-2023 12:38:58.856 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+14-May-2023 12:38:58.857 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.35]
+14-May-2023 12:38:58.863 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/webapps/ROOT]
+14-May-2023 12:38:59.008 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/webapps/ROOT]的部署已在[144]毫秒内完成
+14-May-2023 12:38:59.008 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/webapps/docs]
+14-May-2023 12:38:59.018 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/webapps/docs]的部署已在[9]毫秒内完成
+14-May-2023 12:38:59.018 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/webapps/examples]
+14-May-2023 12:38:59.163 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/webapps/examples]的部署已在[145]毫秒内完成
+14-May-2023 12:38:59.164 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/webapps/host-manager]
+14-May-2023 12:38:59.181 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/webapps/host-manager]的部署已在[18]毫秒内完成
+14-May-2023 12:38:59.181 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/webapps/manager]
+14-May-2023 12:38:59.194 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/webapps/manager]的部署已在[13]毫秒内完成
+14-May-2023 12:38:59.196 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+14-May-2023 12:38:59.202 信息 [main] org.apache.catalina.startup.Catalina.start [368]毫秒后服务器启动
+14-May-2023 14:26:14.545 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+14-May-2023 14:26:14.601 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+14-May-2023 14:26:14.653 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+14-May-2023 14:26:14.660 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+19-May-2023 22:37:44.306 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.35
+19-May-2023 22:37:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 20:36:20 UTC
+19-May-2023 22:37:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.35.0
+19-May-2023 22:37:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Linux
+19-May-2023 22:37:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           3.10.0-1160.el7.x86_64
+19-May-2023 22:37:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+19-May-2023 22:37:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.262.b10-1.el7.x86_64/jre
+19-May-2023 22:37:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_262-b10
+19-May-2023 22:37:44.314 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+19-May-2023 22:37:44.315 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /usr/java/apache-tomcat-9.0.35
+19-May-2023 22:37:44.315 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /usr/java/apache-tomcat-9.0.35
+19-May-2023 22:37:44.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/usr/java/apache-tomcat-9.0.35/conf/logging.properties
+19-May-2023 22:37:44.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-May-2023 22:37:44.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+19-May-2023 22:37:44.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-May-2023 22:37:44.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-May-2023 22:37:44.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+19-May-2023 22:37:44.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/usr/java/apache-tomcat-9.0.35
+19-May-2023 22:37:44.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/usr/java/apache-tomcat-9.0.35
+19-May-2023 22:37:44.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/usr/java/apache-tomcat-9.0.35/temp
+19-May-2023 22:37:44.320 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+19-May-2023 22:37:44.527 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+19-May-2023 22:37:44.545 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[375]毫秒内初始化
+19-May-2023 22:37:44.568 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+19-May-2023 22:37:44.568 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.35]
+19-May-2023 22:37:44.574 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/webapps/ROOT]
+19-May-2023 22:37:44.716 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/webapps/ROOT]的部署已在[143]毫秒内完成
+19-May-2023 22:37:44.716 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/webapps/docs]
+19-May-2023 22:37:44.726 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/webapps/docs]的部署已在[10]毫秒内完成
+19-May-2023 22:37:44.726 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/webapps/examples]
+19-May-2023 22:37:44.876 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/webapps/examples]的部署已在[150]毫秒内完成
+19-May-2023 22:37:44.877 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/webapps/host-manager]
+19-May-2023 22:37:44.897 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/webapps/host-manager]的部署已在[20]毫秒内完成
+19-May-2023 22:37:44.897 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/usr/java/apache-tomcat-9.0.35/webapps/manager]
+19-May-2023 22:37:44.909 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/usr/java/apache-tomcat-9.0.35/webapps/manager]的部署已在[12]毫秒内完成
+19-May-2023 22:37:44.912 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+19-May-2023 22:37:44.920 信息 [main] org.apache.catalina.startup.Catalina.start [374]毫秒后服务器启动
+19-May-2023 23:15:04.689 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+19-May-2023 23:15:04.705 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+19-May-2023 23:15:04.741 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+19-May-2023 23:15:04.745 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
